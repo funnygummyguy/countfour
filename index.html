@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smiley Clicker Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="countdown">
+    <h2>Game starts in: <span id="timer">100</span> seconds</h2>
+  </div>
+
+  <div id="game" style="display:none;">
+    <h1>Smiley Clicker Game</h1>
+    <div id="smiley" class="clickable">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Emoji_u1f600.svg/2048px-Emoji_u1f600.svg.png" alt="Smiley" width="100">
+    </div>
+    <h3>Smilies: <span id="smilies">0</span></h3>
+    <h3>Smilies per Click: <span id="smiliesPerClick">1</span></h3>
+
+    <button id="upgradeButton" class="upgradeButton" style="display:none;">Upgrade (Cost: 10 Smilies)</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
